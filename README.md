@@ -14,9 +14,9 @@ Install the following dependencies:
         OpenMp version >= 4
         Boost version >= 1.71
         
-Make a directory separate from source-reducer-master directory. You can name this directory build. Then run the following:
+Make a directory separate from type-batched-joint-reduction directory. You can name this directory build. Then run the following:
 
         cd build
-        cmake -DLLVM_DIR=/path/to/llvmDir/lib/cmake/llvm /path/to/source-reducer-master
+        cmake -DLLVM_DIR=/path/to/llvmDir/lib/cmake/llvm /path/to/type-batched-joint-reduction
         
 # How to run
