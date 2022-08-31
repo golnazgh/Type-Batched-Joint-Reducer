@@ -6,3 +6,10 @@ Our reducer works by selecting the most advantageous set of nodes from the parse
 Moreover, by selecting nodes with high probability of removal success, we increase the chance of removing nodes overall. This brings in the potential of removing multiple nodes at the same time using a probabilistic joint reducer. This joint reducer tries to build chunks of nodes from the set of advantageous nodes to remove. Each failing removal helps our joint reducer to learn about the nodes in the chunk and build a better chunk that is more likely to be removable next. 
 
 # How to build
+Install the following dependencies:
+
+        cmake version >= 3.2 
+        llvm version >= 9
+        mlpack version >= 3
+        OpenMp version >= 4
+        Boost version >= 1.71
