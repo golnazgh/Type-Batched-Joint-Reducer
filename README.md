@@ -13,3 +13,10 @@ Install the following dependencies:
         mlpack version >= 3
         OpenMp version >= 4
         Boost version >= 1.71
+        
+Make a directory separate from source-reducer-master directory. You can name this directory build. Then run the following:
+
+        cd build
+        cmake -DLLVM_DIR=/path/to/llvmDir/lib/cmake/llvm /path/to/source-reducer-master
+        
+# How to run
